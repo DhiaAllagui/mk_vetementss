@@ -4,10 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>MK Vêtements – Espadrilles Premium Tunisie</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
-    rel="stylesheet">
+  <title>Verona Collection – Vente des produits pour femme</title>
+  <meta name="description" content="Verona Collection – La boutique espadrilles premium avec livraison dans toute la Tunisie. Qualité garantie, paiement à la livraison.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -15,10 +14,10 @@
 <body>
 
   <!-- NAV -->
-  <nav>
+  <nav id="mainNav">
     <a class="nav-logo" href="#">
-      <img src="assets/images/mklogo.jpg" alt="MK Vêtements Logo" class="logo-img">
-      <span>MK Vêtements</span>
+      <img src="assets/images/veronalogo.jpg" alt="Verona Collection Logo" class="logo-img">
+      <span>Verona Collection</span>
     </a>
     <ul class="nav-links">
       <li><a href="#products">Produits</a></li>
@@ -26,7 +25,7 @@
       <li><a href="#how">Commande</a></li>
       <li><a href="#reviews">Avis</a></li>
     </ul>
-    <a href="https://wa.me/21628833058" class="nav-cta">Commander →</a>
+    <a href="https://wa.me/21698425955" class="nav-cta">Commander →</a>
     <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
@@ -37,27 +36,27 @@
     <a href="#about" onclick="toggleMenu()">À Propos</a>
     <a href="#how" onclick="toggleMenu()">Comment Commander</a>
     <a href="#reviews" onclick="toggleMenu()">Avis Clients</a>
-    <a href="https://wa.me/21628833058" class="mob-cta" onclick="toggleMenu()"><i class="fa-brands fa-whatsapp"></i> Commander sur WhatsApp</a>
+    <a href="https://wa.me/21698425955" class="mob-cta" onclick="toggleMenu()"><i class="fa-brands fa-whatsapp"></i> Commander sur WhatsApp</a>
   </div>
 
   <!-- HERO -->
   <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-logo-bg">
-      <img src="assets/images/mklogo.jpg" alt="">
+      <img src="assets/images/pnglogo.png" alt="">
     </div>
     <canvas id="heroCanvas"></canvas>
     <div class="hero-content">
       <div class="hero-badge">Livraison dans toute la Tunisie</div>
-      <h1><em>MK Vêtements</em><br> Espadrilles Premium Tunisie</h1>
-      <p>Qualité premium, style intemporel. Découvrez la collection MK Vêtements livrée directement à votre porte.</p>
+      <h1><em>Verona</em><br>Collection</h1>
+      <p>Élégance intemporelle, confort absolu. Découvrez notre sélection d'espadrilles premium livrée directement chez vous.</p>
       <div class="hero-btns">
         <a href="#products" class="btn-primary">Voir la Collection</a>
-        <a href="https://wa.me/21628833058" class="btn-outline"><i class="fa-brands fa-whatsapp"></i> Contacter sur WhatsApp</a>
+        <a href="https://wa.me/21698425955" class="btn-outline"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
       </div>
       <div class="hero-stats">
-        <div class="stat"><span class="stat-num">67.9K</span><span class="stat-label">Abonnés</span></div>
-        <div class="stat"><span class="stat-num">354+</span><span class="stat-label">Produits</span></div>
+        <div class="stat"><span class="stat-num">67.9K</span><span class="stat-label">Abonnées</span></div>
+        <div class="stat"><span class="stat-num">354+</span><span class="stat-label">Modèles</span></div>
         <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Satisfait ou remboursé</span></div>
         <div class="stat"><span class="stat-num">24h</span><span class="stat-label">Livraison Rapide</span></div>
       </div>
@@ -68,7 +67,8 @@
   <section class="products" id="products">
     <div style="max-width:1100px;margin:0 auto;">
       <div class="products-header">
-        <p class="section-label">Notre Sélection</p>
+        <span class="section-label">Notre Sélection</span>
+        <div class="thin-divider"></div>
         <h2 class="section-title">Collection Espadrilles</h2>
         <p class="section-sub">Chaque paire est soigneusement sélectionnée pour son confort et son style.</p>
       </div>
@@ -76,7 +76,7 @@
 
         <div class="product-card">
           <div class="product-img">
-            <img src="assets/images/s1.jpg" alt="Espadrille Classique Blanche">
+            <img src="assets/images/s1.png" alt="Espadrille Classique Blanche">
             <span class="product-badge">Nouveau</span>
           </div>
           <div class="product-info">
@@ -91,7 +91,7 @@
 
         <div class="product-card">
           <div class="product-img">
-            <img src="assets/images/s2.jpg" alt="Espadrille Caramel Premium">
+            <img src="assets/images/s2.png" alt="Espadrille Caramel Premium">
             <span class="product-badge">Best-seller</span>
           </div>
           <div class="product-info">
@@ -106,7 +106,7 @@
 
         <div class="product-card">
           <div class="product-img">
-            <img src="assets/images/s3.jpg" alt="Espadrille Marine Sport">
+            <img src="assets/images/s3.png" alt="Espadrille Marine Sport">
             <span class="product-badge">-15%</span>
           </div>
           <div class="product-info">
@@ -136,7 +136,7 @@
 
         <div class="product-card">
           <div class="product-img">
-            <img src="assets/images/s1.jpg" alt="Espadrille Casual Grey">
+            <img src="assets/images/s5.png" alt="Espadrille Casual Grey">
           </div>
           <div class="product-info">
             <div class="product-name">Espadrille Casual Grey</div>
@@ -150,7 +150,7 @@
 
         <div class="product-card">
           <div class="product-img">
-            <img src="assets/images/s2.jpg" alt="Espadrille Midnight Black">
+            <img src="assets/images/s1.png" alt="Espadrille Midnight Black">
             <span class="product-badge">Exclusif</span>
           </div>
           <div class="product-info">
@@ -164,34 +164,34 @@
         </div>
 
       </div>
-      <div style="text-align:center;margin-top:36px;">
+      <div style="text-align:center;margin-top:44px;">
         <a href="" class="btn-outline">Voir tous les modèles →</a>
       </div>
     </div>
   </section>
 
   <!-- ABOUT / FEATURES -->
-  <section id="about" style="padding:80px 24px;">
+  <section id="about" style="padding:100px 24px;background:#FAF9F7;">
     <div class="features" style="max-width:1100px;margin:0 auto;">
       <div class="features-inner">
         <div>
-          <p class="section-label">Pourquoi MK Vêtements</p>
+          <span class="section-label">Pourquoi Verona Collection</span>
+          <div class="thin-divider" style="margin:0 0 24px;"></div>
           <h2 class="section-title">La qualité que vous méritez</h2>
-          <p class="section-sub">Avec plus de 67 000 clients satisfaits sur Instagram, nous sommes la référence
-            espadrilles en Tunisie.</p>
+          <p class="section-sub">Avec plus de 67 000 clientes satisfaites sur Instagram, nous sommes la référence espadrilles en Tunisie.</p>
           <div class="features-list">
             <div class="feature-item">
               <div class="feature-icon"><i class="fa-solid fa-truck"></i></div>
               <div>
                 <h4>Livraison Nationale</h4>
-                <p>Expédié dans toutes les gouvernorats de Tunisie en 24 à 48h ouvrables.</p>
+                <p>Expédié dans tous les gouvernorats de Tunisie en 24 à 48h ouvrables.</p>
               </div>
             </div>
             <div class="feature-item">
               <div class="feature-icon"><i class="fa-solid fa-circle-check"></i></div>
               <div>
                 <h4>Satisfait ou Remboursé</h4>
-                <p>Garantie 100% sur chaque commande. Pas satisfait ? On vous rembourse.</p>
+                <p>Garantie 100% sur chaque commande. Pas satisfaite ? On vous rembourse.</p>
               </div>
             </div>
             <div class="feature-item">
@@ -205,9 +205,9 @@
         </div>
         <div class="features-visual">
           <div class="logo-big">
-            <img src="assets/images/mklogo.jpg" alt="MK Vêtements">
+            <img src="assets/images/veronalogo.jpg" alt="Verona Collection">
           </div>
-          <h3>MK Vêtements</h3>
+          <h3>Verona Collection</h3>
           <p>Votre boutique espadrilles de confiance depuis Tunis</p>
           <div class="trust-badges">
             <div class="trust-item">
@@ -229,10 +229,11 @@
   </section>
 
   <!-- HOW IT WORKS -->
-  <section class="testimonials" id="how">
+  <section class="testimonials" id="how" style="background:#F5E9E2;">
     <div class="how" style="max-width:900px;margin:0 auto;padding:0;">
       <div class="how-header">
-        <p class="section-label">Simple & Rapide</p>
+        <span class="section-label">Simple &amp; Rapide</span>
+        <div class="thin-divider"></div>
         <h2 class="section-title">Comment Commander</h2>
         <p class="section-sub" style="margin:0 auto;">Recevez votre paire en 4 étapes simples.</p>
       </div>
@@ -258,8 +259,8 @@
           <p>Votre colis arrive chez vous. Paiement à la livraison.</p>
         </div>
       </div>
-      <div style="text-align:center;margin-top:44px;">
-        <a href="https://wa.me/21628833058" class="btn-primary" style="font-size:1.05rem;padding:16px 40px;">
+      <div style="text-align:center;margin-top:48px;">
+        <a href="https://wa.me/21698425955" class="btn-primary" style="font-size:1rem;padding:16px 42px;">
           <i class="fa-brands fa-whatsapp"></i> Commander Maintenant
         </a>
       </div>
@@ -267,18 +268,18 @@
   </section>
 
   <!-- REVIEWS -->
-  <section id="reviews" style="padding:80px 24px;">
+  <section id="reviews" style="padding:100px 24px;background:#FAF9F7;">
     <div style="max-width:1100px;margin:0 auto;">
       <div class="testimonials-header">
-        <p class="section-label">Avis Clients</p>
-        <h2 class="section-title">Ce qu'ils disent de nous</h2>
-        <p class="section-sub">Des centaines de clients satisfaits à travers toute la Tunisie.</p>
+        <span class="section-label">Avis Clients</span>
+        <div class="thin-divider"></div>
+        <h2 class="section-title">Ce qu'elles disent de nous</h2>
+        <p class="section-sub">Des centaines de clientes satisfaites à travers toute la Tunisie.</p>
       </div>
       <div class="reviews-grid">
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">Qualité vraiment top ! J'ai reçu ma commande en moins de 24h à Sfax. Les espadrilles
-            sont exactement comme sur les photos. Je recommande à 100% !</p>
+          <p class="review-text">Qualité vraiment top ! J'ai reçu ma commande en moins de 24h à Sfax. Les espadrilles sont exactement comme sur les photos. Je recommande à 100% !</p>
           <div class="reviewer">
             <div class="avatar">D</div>
             <div>
@@ -289,19 +290,18 @@
         </div>
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">Très bon service, le vendeur est réactif sur WhatsApp. Les chaussures sont confortables
-            et bien finies. Je vais commander une autre paire bientôt !</p>
+          <p class="review-text">Très bon service, la vendeuse est réactive sur WhatsApp. Les chaussures sont confortables et bien finies. Je vais commander une autre paire bientôt !</p>
           <div class="reviewer">
             <div class="avatar">A</div>
             <div>
-              <div class="reviewer-name">Ahmed B.</div>
+              <div class="reviewer-name">Amira B.</div>
               <div class="reviewer-loc">Tunis</div>
             </div>
           </div>
         </div>
         <div class="review-card">
           <div class="stars">★★★★★</div>
-          <p class="review-text">Paiement à la livraison super pratique. Ma fille adore ses nouvelles espadrilles ! Livraison rapide à Sousse. Merci MK Vêtements <i class="fa-solid fa-thumbs-up"></i></p>
+          <p class="review-text">Paiement à la livraison super pratique. Ma fille adore ses nouvelles espadrilles ! Livraison rapide à Sousse. Merci Verona Collection <i class="fa-solid fa-heart"></i></p>
           <div class="reviewer">
             <div class="avatar">F</div>
             <div>
@@ -315,13 +315,13 @@
   </section>
 
   <!-- CTA -->
-  <section style="padding:60px 24px 80px;">
+  <section style="padding:60px 24px 100px;background:#FAF9F7;">
     <div class="cta-banner">
-      <h2>Prêt à craquer pour une paire ?</h2>
+      <h2>Prête à craquer pour une paire ?</h2>
       <p>Contactez-nous sur WhatsApp et commandez en quelques secondes. Livraison partout en Tunisie.</p>
       <div class="cta-actions">
-        <a href="https://wa.me/21628833058" class="btn-primary"><i class="fa-brands fa-whatsapp"></i> Commander sur WhatsApp</a>
-        <a href="tel:+21628833058" class="btn-outline"><i class="fa-solid fa-phone"></i> 28 833 058</a>
+        <a href="https://wa.me/21698425955" class="btn-primary"><i class="fa-brands fa-whatsapp"></i> Commander sur WhatsApp</a>
+        <a href="tel:+21698425955" class="btn-outline"><i class="fa-solid fa-phone"></i> 98 425 955</a>
       </div>
     </div>
   </section>
@@ -331,16 +331,15 @@
     <div class="footer-inner">
       <div class="footer-brand">
         <a class="nav-logo footer-logo" href="#">
-          <img src="assets/images/mklogo.jpg" alt="MK Vêtements Logo">
-          <span style="font-family:'Playfair Display',serif;color:var(--gold);margin-left:8px;">MK Vêtements</span>
+          <img src="assets/images/veronalogo.jpg" alt="Verona Collection Logo">
+          <span>Verona Collection</span>
         </a>
-        <p>Votre boutique d'espadrilles premium avec livraison dans toute la Tunisie. Qualité garantie, paiement à la
-          livraison.</p>
+        <p>Votre boutique d'espadrilles premium avec livraison dans toute la Tunisie. Qualité garantie, paiement à la livraison.</p>
         <div class="footer-contact">
-          <a href="https://wa.me/21628833058"><i class="fa-brands fa-whatsapp"></i> wa.me/21628833058</a>
-          <a href="tel:+21628833058"><i class="fa-solid fa-phone"></i> 28 833 058</a>
-          <a href="https://instagram.com/mk_vetementss_2" target="_blank"><i class="fa-brands fa-instagram"></i> @mk_vetementss_2</a>
-          <a href="https://www.facebook.com/profile.php?id=61583163354747&sk=photos" target="_blank"><i class="fa-brands fa-facebook"></i> MK Vêtements</a>
+          <a href="https://wa.me/21698425955"><i class="fa-brands fa-whatsapp"></i> wa.me/21698425955</a>
+          <a href="tel:+21698425955"><i class="fa-solid fa-phone"></i> 98 425 955</a>
+          <a href="https://www.instagram.com/veronacollectiontn/" target="_blank"><i class="fa-brands fa-instagram"></i> @veronacollectiontn</a>
+          <a href="https://www.facebook.com/veronacollectiontn/" target="_blank"><i class="fa-brands fa-facebook"></i> Verona Collection</a>
         </div>
       </div>
       <div class="footer-col">
@@ -363,16 +362,15 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 MK Vêtements. Tous droits réservés.</span>
-      <span>Développer par Med Dhia Allagui</span>
+      <span>© 2026 Verona Collection. Tous droits réservés.</span>
+      <span>Développé par Med Dhia Allagui</span>
     </div>
   </footer>
 
   <!-- WhatsApp FAB -->
-  <a href="https://wa.me/21628833058" class="wa-fab" title="Commander sur WhatsApp" target="_blank">
+  <a href="https://wa.me/21698425955" class="wa-fab" title="Commander sur WhatsApp" target="_blank">
     <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M16 3C9.373 3 4 8.373 4 15c0 2.385.68 4.61 1.857 6.5L4 29l7.714-1.857A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10c-1.97 0-3.804-.57-5.35-1.553l-.35-.23-4.58 1.103 1.102-4.48-.253-.37A9.956 9.956 0 016 15c0-5.523 4.477-10 10-10zm-3.5 5.5c-.275 0-.72.1-1.1.5-.38.4-1.4 1.37-1.4 3.33s1.433 3.867 1.633 4.133c.2.267 2.767 4.433 6.834 6.034 3.4 1.333 4.1.934 4.834.834s2.333-.934 2.666-1.834c.333-.9.333-1.667.233-1.833-.1-.167-.367-.267-.767-.467-.4-.2-2.333-1.167-2.7-1.3-.367-.133-.633-.2-.9.2-.267.4-1.033 1.3-1.267 1.567-.233.267-.467.3-.867.1-.4-.2-1.7-.633-3.233-2.033-1.2-1.1-2-2.433-2.233-2.833-.233-.4-.025-.617.175-.817.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.867-2.133-1.233-2.9-.3-.7-.633-.7-.9-.7z" />
+      <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.68 4.61 1.857 6.5L4 29l7.714-1.857A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10c-1.97 0-3.804-.57-5.35-1.553l-.35-.23-4.58 1.103 1.102-4.48-.253-.37A9.956 9.956 0 016 15c0-5.523 4.477-10 10-10zm-3.5 5.5c-.275 0-.72.1-1.1.5-.38.4-1.4 1.37-1.4 3.33s1.433 3.867 1.633 4.133c.2.267 2.767 4.433 6.834 6.034 3.4 1.333 4.1.934 4.834.834s2.333-.934 2.666-1.834c.333-.9.333-1.667.233-1.833-.1-.167-.367-.267-.767-.467-.4-.2-2.333-1.167-2.7-1.3-.367-.133-.633-.2-.9.2-.267.4-1.033 1.3-1.267 1.567-.233.267-.467.3-.867.1-.4-.2-1.7-.633-3.233-2.033-1.2-1.1-2-2.433-2.233-2.833-.233-.4-.025-.617.175-.817.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.867-2.133-1.233-2.9-.3-.7-.633-.7-.9-.7z" />
     </svg>
   </a>
 
